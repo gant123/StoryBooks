@@ -1,0 +1,15 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "App to create stories both private and public",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Robert Gant",
+  "license": "GMB",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15"
+  }
+}
