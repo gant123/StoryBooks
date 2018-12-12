@@ -11,7 +11,7 @@ const auth = require('./routes/auth');
 const app  = express();
 
 app.get('/', (req, res) => {
-res.send('it works!');
+  res.sendFile("index.html", {"root": __dirname});
 });
 
 // Use routes
