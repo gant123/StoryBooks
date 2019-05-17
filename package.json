@@ -1,7 +1,7 @@
 {
-  "name": "storybook",
+  "name": "storybooks",
   "version": "1.0.0",
-  "description": "App to create stories both private and public",
+  "description": "App to share public or write private stories",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -9,8 +9,14 @@
   "author": "Robert Gant",
   "license": "GMB",
   "dependencies": {
-    "express": "^4.16.4",
-    "mongoose": "^5.3.15",
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "moment": "^2.22.2",
+    "mongoose": "^4.13.17",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
   }
